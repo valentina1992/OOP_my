@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<#include "components/head.jsp">
+<!-- Header -->
+<div id="content"> 
+    <div class="content-container"> 
+        <h3>HTTP Error 404.0 - Not Found</h3> 
+        <h4>The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.</h4> 
+    </div> 
+    <div class="content-container"> 
+        <fieldset><h4>Most likely causes:</h4> 
+            <ul> 	<li>The directory or file specified does not exist on the Web server.</li> 	<li>The URL contains a typographical error.</li> 	<li>A custom filter or module, such as URLScan, restricts access to the file.</li> </ul> 
+        </fieldset> 
+    </div> 
+    <div class="content-container"> 
+        <fieldset><h4>Things you can try:</h4> 
+            <ul> 	<li>Create the content on the Web server.</li> 	<li>Review the browser URL.</li> 	<li>Create a tracing rule to track failed requests for this HTTP status code and see which module is calling SetStatus. For more information about creating a tracing rule for failed requests, click <a href="http://go.microsoft.com/fwlink/?LinkID=66439">here</a>. </li> </ul> 
+        </fieldset> 
+    </div> 
+    <div>
+        <a href="homepage">homepage</a>
+    </div>
+</div>
+<#include "components/js.jsp">
+<#include "components/footer.jsp">
